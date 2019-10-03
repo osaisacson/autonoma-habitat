@@ -27,7 +27,7 @@ class App extends React.Component {
 
         <div className="section">
           <br></br>
-          <h1>Boilerplate</h1>
+          <h1>Boilerplate 2</h1>
           <br></br>
           <h2>How it works</h2>
           <p>
