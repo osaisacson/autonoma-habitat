@@ -11,7 +11,7 @@ class App extends React.Component {
 
   // const [show, setShow] = React.useState(true);
   render() {
-    return <div className="App">React part</div>;
+    return <div className="App"></div>;
   }
 }
 
