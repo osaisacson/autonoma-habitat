@@ -144,6 +144,15 @@ margin, padding
 }
 
 /* ================================
+Helpers
+================================= */
+
+.justify-center {
+  display: flex;
+  justify-content: center;
+}
+
+/* ================================
 Navbar
 ================================= */
 
@@ -205,7 +214,7 @@ Home sections
 
 .home-section {
   width: 100%;
-  padding: 150px 0px 150px 0px;
+  padding: 70px 0;
 }
 
 /* --- heading --- */
@@ -268,16 +277,20 @@ Parallax
   background-image: url(../img/parallax/2.jpg);
 }
 
-#tjanster1 {
-  color: #666;
-  background-image: url(https://images.unsplash.com/photo-1560750588-73207b1ef5b8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1525&q=80);
+.parallax-overlay {
+  padding: 150px 0;
+  background-color: rgba(0, 0, 0, 0.65);
+  width: 100%;
 }
-#tjanster2 {
+
+#tjanster-utformar {
+  background-image: url(https://images.unsplash.com/photo-1461886988361-c3d1d47fd6f6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80);
+}
+#tjanster-bygger {
   background-image: url(https://images.unsplash.com/photo-1568056914987-2160aaeffb6b?ixlib=rb-1.2.1&auto=format&fit=crop&w=934&q=80);
 }
-#tjanster3 {
-  color: #666;
-  background-image: url(https://images.unsplash.com/photo-1504524113458-1a56028c190c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=975&q=80);
+#tjanster-driver {
+  background-image: url(https://images.unsplash.com/photo-1508424757105-b6d5ad9329d0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=975&q=80);
 }
 
 /* ================================
@@ -459,7 +472,7 @@ About
   color: #333;
   font-weight: 300;
   font-size: 24px;
-  text-align: left;
+  text-align: center;
 }
 
 #about .content h3 {
@@ -468,7 +481,7 @@ About
   font-size: 18px;
   line-height: 26px;
   font-style: italic;
-  text-align: left;
+  text-align: center;
 }
 
 #about .content p {
