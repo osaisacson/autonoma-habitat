@@ -147,9 +147,40 @@ margin, padding
 Helpers
 ================================= */
 
+.flex-wrap-and-center {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
 .justify-center {
   display: flex;
   justify-content: center;
+}
+
+/* ================================
+Team image gallery
+================================= */
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.gallery-img {
+	width: 100px;
+	height: 110px;
+	object-fit: cover;
+	margin: 10px;
+}
+
+@media (max-width: 400px) {
+  .btn.filter {
+    padding-left: 1.1rem;
+    padding-right: 1.1rem;
+    margin: 10px;
+    border-radius: 4px;
+  }
 }
 
 /* ================================
@@ -214,7 +245,7 @@ Home sections
 
 .home-section {
   width: 100%;
-  padding: 70px 0;
+  padding: 60px 0;
 }
 
 /* --- heading --- */

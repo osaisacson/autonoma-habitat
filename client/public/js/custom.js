@@ -55,6 +55,23 @@
     }
   });
 
+  //Team image gallery
+  var selectedClass = "";
+  $(".filter").click(function() {
+    selectedClass = $(this).attr("data-rel");
+    $("#gallery").fadeTo(100, 0);
+    $("#gallery img")
+      .not("." + selectedClass)
+      .fadeOut()
+      .removeClass("animated fadeIn");
+    setTimeout(function() {
+      $("." + selectedClass)
+        .fadeIn()
+        .addClass("animated fadeIn");
+      $("#gallery").fadeTo(300, 1);
+    }, 300);
+  });
+
   // Intro carousel
   var introCarousel = $("#introCarousel");
   var introCarouselIndicators = $("#intro-carousel-indicators");
