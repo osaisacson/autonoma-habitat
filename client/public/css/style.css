@@ -302,7 +302,7 @@ Parallax
 ============================= */
 
 #parallax1 {
-  background-image: url(../img/parallax/1.jpg);
+  background-image: url(https://images.unsplash.com/photo-1518984935012-271786e50ecf?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80);
 }
 #parallax2 {
   background-image: url(../img/parallax/2.jpg);
@@ -311,10 +311,17 @@ Parallax
 .parallax-overlay {
   display: flex;
   align-items: center;
-  padding: 0 25px;
+  justify-content: center;
+  padding: 0 25%;
   background-color: rgba(0, 0, 0, 0.5);
   width: 100%;
   height: 100vh;
+}
+
+.parallax {
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 #tjanster-utformar {
