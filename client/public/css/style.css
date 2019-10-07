@@ -168,10 +168,10 @@ Team image gallery
 }
 
 .gallery-img {
-	width: 100px;
-	height: 110px;
-	object-fit: cover;
-	margin: 10px;
+  width: 100px;
+  height: 110px;
+  object-fit: cover;
+  margin: 10px;
 }
 
 @media (max-width: 400px) {
@@ -309,19 +309,26 @@ Parallax
 }
 
 .parallax-overlay {
-  padding: 150px 25px;
-  background-color: rgba(0, 0, 0, 0.65);
+  padding: 80px 25px;
+  background-color: rgba(0, 0, 0, 0.5);
   width: 100%;
 }
 
+.parallax {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 #tjanster-utformar {
-  background-image: url(https://images.unsplash.com/photo-1461886988361-c3d1d47fd6f6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80);
+  background-image: url(https://images.unsplash.com/photo-1508424757105-b6d5ad9329d0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=975&q=80);
 }
 #tjanster-bygger {
-  background-image: url(https://images.unsplash.com/photo-1568056914987-2160aaeffb6b?ixlib=rb-1.2.1&auto=format&fit=crop&w=934&q=80);
+  background-image: url(https://images.unsplash.com/photo-1509453721491-c3af5961df76?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=975&q=80);
 }
 #tjanster-driver {
-  background-image: url(https://images.unsplash.com/photo-1508424757105-b6d5ad9329d0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=975&q=80);
+  background-image: url(https://images.unsplash.com/photo-1461886988361-c3d1d47fd6f6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80);
 }
 
 /* ================================
@@ -881,7 +888,7 @@ ul.social-network li a i {
 Footer
 ================================= */
 footer {
-  background: #00c1c1;
+  background: #666e65;
   color: #fff;
   padding: 50px 0 30px;
 }
