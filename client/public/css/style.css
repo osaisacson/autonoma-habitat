@@ -236,7 +236,7 @@ nav.navbar.fixed-to-top {
   color: #fff;
   text-transform: uppercase;
   font-weight: 700;
-  font-size: 2em;
+  font-size: 1.6em;
 }
 
 /* ================================
@@ -312,7 +312,7 @@ Parallax
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 0 25%;
+  padding: 0 30%;
   background-color: rgba(0, 0, 0, 0.5);
   width: 100%;
   height: 100vh;
@@ -322,6 +322,12 @@ Parallax
   height: 100vh;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+@media (max-width: 768px) {
+  .parallax-overlay {
+    padding: 0 10%;
+  }
 }
 
 #tjanster-utformar {
