@@ -1,5 +1,5 @@
 {
-  "name": "extinction-rebellion-demands",
+  "name": "autonoma-habitat",
   "version": "1.0.0",
   "engines": {
     "node": "10.16.3"
@@ -15,15 +15,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/osaisacson/extinction-rebellion-demands.git"
+    "url": "git+https://github.com/osaisacson/autonoma-habitat.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/osaisacson/extinction-rebellion-demands/issues"
+    "url": "https://github.com/osaisacson/autonoma-habitat/issues"
   },
-  "homepage": "https://github.com/osaisacson/extinction-rebellion-demands#readme",
+  "homepage": "https://github.com/osaisacson/autonoma-habitat#readme",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.22",
     "@fortawesome/free-solid-svg-icons": "^5.10.2",
